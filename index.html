@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+  <link rel="stylesheet" href="style.css">
+  <title>Frontend Mentor | Recipe page</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+  </style>
+</head>
+<body>
+
+  <div id="page" class="site">
+    <div class="container">
+      <div class="product">
+        <div class="recipe">
+          <div class="image">
+            <img src="./assets/images/image-omelette.jpeg" alt="">
+          </div>
+        </div>
+          <div class="content">
+            <div class="main__title">
+              <h2>Simple Omelette Recipe</h2>
+            </div>
+            <div class="main__description">
+              <p>An easy and quick dish, perfect for any meal. This classic omelette combines beaten eggs cooked 
+                to perfection, optionally filled with your choice of cheese, vegetables, or meats.
+              </p>
+            </div>
+          <div class="preparation__time">
+            <div class="preparation__title">
+              <p>Preparation time</p>
+            </div>
+            <div class="preparation__wrapper">
+              <div class="total__flex">
+                <div class="dot"></div>
+                <div class="total__desc">
+                  <p><span>Total</span>:Approximately 10 minutes</p>
+                </div>
+              </div>
+              <div class="preparation__flex">
+                <div class="dot"></div>
+                <div class="total__desc">
+                  <p><span>Preparation</span>
+                    :5 minutes</p>
+                </div>
+              </div>
+              <div class="cooking__flex">
+                <div class="dot"></div>
+                <div class="total__desc">
+                  <p><span>Cooking</span>
+                  :5 minutes</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="ingredients">
+            <div class="ingredients__title">
+              <p>Ingredients</p>
+            </div>
+              <div class="ingredients__content__flex">
+                <div class="fist__ing">
+                  <div class="dot"></div>
+                  <div class="total__desc">
+                    <p>2-3 large eggs</p>
+                  </div>
+                </div>
+                <div class="second__ing">
+                  <div class="dot"></div>
+                  <div class="total__desc">
+                    <p>Salt, to taste</p>
+                  </div>
+                </div>
+                <div class="third__ing">
+                  <div class="dot"></div>
+                  <div class="total__desc">
+                    <p>Pepper, to taste</p>
+                  </div>
+                </div>
+                <div class="fourth__ing">
+                  <div class="dot"></div>
+                  <div class="total__desc">
+                    <p>1 tablespoon of butter or oil</p>
+                  </div>
+                </div>
+                <div class="fifth__ing">
+                  <div class="dot"></div>
+                  <div class="total__desc">
+                    <p> Optional fillings: cheese, diced vegetables, cooked meats, herbs</p>
+                  </div>
+                </div>
+              </div>         
+          </div>
+          <div class="underline"></div>
+          <div class="instructions">
+            <div class="instructions__title">
+              <p>Instructions</p>
+            </div>
+            <div class="instructions__wrapper">
+              <div class="first__instr">
+                <div class="instr__number"><p>1.</p></div>
+                <div class="instr__descr">
+                  <p><span>Beat the eggs:</span>In a bowl, beat the eggs with a pinch of salt and pepper until they are well mixed. 
+                    You can add a tablespoon of water or milk for a fluffier texture.
+                  </p>
+                </div>
+              </div>
+              <div class="second__instr">
+                <div class="instr__number"><p>2.</p></div>
+                <div class="instr__descr">
+                  <p><span>Heat the pan:</span>
+                    Place a non-stick frying pan over medium heat and add butter or oil.
+                  </p>
+                </div>
+              </div>
+              <div class="third__instr">
+                <div class="instr__number"><p>3.</p></div>
+                <div class="instr__descr">
+                  <p><span>Cook the omelette:</span>
+                  Once the butter is melted and bubbling, pour in the eggs. Tilt the pan to ensure 
+                  the eggs evenly coat the surface.
+                  </p>
+                </div>
+              </div>
+              <div class="fourth__instr">
+                <div class="instr__number"><p>4.</p></div>
+                <div class="instr__descr">
+                  <p><span>Add fillings (optional):</span>
+                    When the eggs begin to set at the edges but are still slightly runny in the 
+                    middle, sprinkle your chosen fillings over one half of the omelette.                  
+                  </p>
+                </div>
+              </div>
+              <div class="fifth__instr">
+                <div class="instr__number"><p>5.</p></div>
+                <div class="instr__descr">
+                  <p><span> Fold and serve:</span>
+                    As the omelette continues to cook, carefully lift one edge and fold it over the 
+                    fillings. Let it cook for another minute, then slide it onto a plate.                  
+                  </p>
+                </div>
+              </div>
+              <div class="sixth__instr">
+                <div class="instr__number"><p>6.</p></div>
+                <div class="instr__descr">
+                  <p><span>Enjoy:</span>
+                    Serve hot, with additional salt and pepper if needed.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="underline"></div>
+          <div class="nutrition">
+            <div class="nutrition__title">
+              <p>Nutrition</p>
+            </div>
+          <div class="nutrition__wrapper">
+            <div class="nutrition__dec">
+              <p>The table below shows nutritional values per serving without the additional fillings.</p>
+            </div>
+            <div class="nutrition__calories__flex">
+              <div class="calories__title">
+                <p>Calories</p>
+              </div>
+              <div class="calories__number">
+                <p>277kcal</p>
+              </div>
+            </div>
+            <div class="underline"></div>
+            <div class="nutrition__carbs__flex">
+              <div class="carbs__title">
+                <p>Carbs</p>
+              </div>
+              <div class="carbs__number">
+                <p>0g</p>
+              </div>
+            </div>
+            <div class="underline"></div>
+            <div class="nutrition__protrin__flex">
+              <div class="protein__title">
+                <p>Protein</p>
+              </div>
+              <div class="protein__number">
+                <p>20g</p>
+              </div>
+            </div>
+            <div class="underline"></div>
+            <div class="nutrition__fat__flex">
+              <div class="fat__title">
+                <p>Fat</p>
+              </div>
+              <div class="fat__number">
+                <p>22g</p>
+              </div>
+            </div>
+          </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
